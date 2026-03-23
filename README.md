@@ -1,16 +1,16 @@
-<p align="center">
-  <img src="docs/assets/Gridflow-icon-hero.png" alt="Gridflow icon" width="112">
-</p>
+<img src="docs/assets/Gridflow-icon-hero.png" alt="Gridflow icon" width="112" align="left">
 
 # Gridflow
 
 Gridflow is a local-first macOS task planner built around the Eisenhower matrix. It helps you sort work into four priority quadrants, keep projects organized, and review completed work without shipping your data to a server.
 
+<br clear="left">
+
 ## Demo
 
-[![Watch the Gridflow demo](docs/demo/Gridflow-demo-poster.png)](docs/demo/Gridflow-demo.mp4)
+![Animated Gridflow demo](docs/demo/Gridflow-demo.gif)
 
-Click the preview to open the short product demo video.
+Prefer the original recording? [Open the MP4 demo](docs/demo/Gridflow-demo.mp4).
 
 ## Highlights
 
@@ -23,23 +23,9 @@ Click the preview to open the short product demo video.
 - Theme and language preferences
 - Local persistence in `~/Library/Application Support/Gridflow/storage.json`
 
-## Screenshots
-
-Add product screenshots under `docs/screenshots/` and then replace or uncomment the examples below. Use demo data only.
-
-- `docs/screenshots/overview.png`
-- `docs/screenshots/task-editor.png`
-- `docs/screenshots/completed-log.png`
-
-<!--
-![Matrix board](docs/screenshots/overview.png)
-![Task editor](docs/screenshots/task-editor.png)
-![Completed log](docs/screenshots/completed-log.png)
--->
-
 ## Requirements
 
-- macOS 14 or newer
+- macOS 14 Sonoma or newer
 - Xcode 16 or newer, or a recent Swift 6.1-compatible toolchain
 
 ## Run Locally
@@ -74,7 +60,8 @@ See `docs/RELEASING.md` for the release checklist.
 
 - `Gridflow/` Swift package and macOS app source
 - `.github/workflows/` CI and release automation
-- `docs/screenshots/` screenshot placeholders for the README
+- `docs/demo/` public demo media used in the README
+- `docs/assets/` public brand assets used in the README
 - `CONTRIBUTING.md`, `CODE_OF_CONDUCT.md`, `SECURITY.md` community docs
 
 ## Data And Privacy
@@ -89,7 +76,7 @@ This repository ignores local exports, recovered imports, build artifacts, DMGs,
 
 ## Contributing
 
-Bug reports, feature ideas, and pull requests are welcome. Please read `CONTRIBUTING.md` before opening a PR, especially the notes about demo data, screenshots, and release hygiene.
+Bug reports, feature ideas, and pull requests are welcome. Please read `CONTRIBUTING.md` before opening a PR, especially the notes about demo data and release hygiene.
 
 ## License
 
