@@ -5,6 +5,7 @@ enum AppMetadata {
     static let displayName = "Gridflow"
     static let defaultMarketingVersion = "1.0.0"
     static let marketingVersion = bundleString(for: "CFBundleShortVersionString") ?? defaultMarketingVersion
+    static let aboutTagline = "A simple macOS task planner built around the Eisenhower matrix."
     static let copyrightLine = bundleString(for: "NSHumanReadableCopyright") ?? "\u{00A9} Matthew Avgul"
     static let defaultProjectName = "Tasks"
     static let storageFolderName = "Gridflow"

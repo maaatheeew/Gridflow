@@ -14,6 +14,12 @@ struct AboutView: View {
                 Text(AppMetadata.displayName)
                     .font(.system(size: 28, weight: .semibold, design: .rounded))
 
+                Text(AppMetadata.aboutTagline)
+                    .font(.subheadline)
+                    .foregroundStyle(.secondary)
+                    .multilineTextAlignment(.center)
+                    .fixedSize(horizontal: false, vertical: true)
+
                 Text("Version \(AppMetadata.marketingVersion)")
                     .font(.headline)
 

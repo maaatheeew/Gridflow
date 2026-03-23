@@ -80,10 +80,9 @@ Bug reports, feature ideas, and pull requests are welcome. Please read `CONTRIBU
 
 ## Contributors
 
-- Matthew Avgul — creator and maintainer of Gridflow
-- Codex — open source packaging, documentation, and release workflow support
+Gridflow is maintained through ongoing project contributions and product iteration.
 
-See `CONTRIBUTORS.md` for the current project credits.
+See `CONTRIBUTORS.md` for contributor notes.
 
 ## License
 
