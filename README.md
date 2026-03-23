@@ -29,8 +29,8 @@ Prefer the original recording? [Open the MP4 demo](docs/demo/Gridflow-demo.mp4).
 
 ## Requirements
 
-- macOS 14 Sonoma or newer
-- Xcode 16 or newer, or a recent Swift 6.1-compatible toolchain
+- macOS 26 or newer
+- Xcode 26 or newer, or a recent Swift 6.2-compatible toolchain
 
 ## Run Locally
 

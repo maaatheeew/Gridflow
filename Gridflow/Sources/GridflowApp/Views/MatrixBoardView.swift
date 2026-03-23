@@ -292,46 +292,19 @@ private struct QuickAddButton: View {
     let accent: Color
     let action: () -> Void
 
-    @State private var isHovering = false
-
     var body: some View {
-        if #available(macOS 26.0, *) {
-            Button(action: action) {
-                Image(systemName: "plus")
-                    .font(.system(size: 11, weight: .bold, design: .rounded))
-                    .foregroundStyle(.white.opacity(0.96))
-                    .frame(width: 12, height: 12)
-                    .padding(4)
-            }
-            .buttonStyle(BorderedProminentButtonStyle())
-            .buttonBorderShape(.circle)
-            .tint(accent)
-            .controlSize(.small)
-            .keepsActiveControlAppearance()
-        } else {
-            Button(action: action) {
-                Circle()
-                    .fill(accent.opacity(isHovering ? 0.98 : 0.88))
-                    .frame(width: 18, height: 18)
-                    .overlay {
-                        Circle()
-                            .stroke(accent.opacity(isHovering ? 0.34 : 0.18), lineWidth: 1)
-                    }
-                    .overlay {
-                        Image(systemName: "plus")
-                            .font(.system(size: 9, weight: .bold, design: .rounded))
-                            .foregroundStyle(.white.opacity(0.98))
-                    }
-                    .shadow(color: accent.opacity(isHovering ? 0.22 : 0.14), radius: 6, y: 2)
-                    .scaleEffect(isHovering ? 1.08 : 1)
-                    .contentShape(Circle())
-            }
-            .buttonStyle(.plain)
-            .animation(.spring(response: 0.2, dampingFraction: 0.86), value: isHovering)
-            .onHover { inside in
-                isHovering = inside
-            }
+        Button(action: action) {
+            Image(systemName: "plus")
+                .font(.system(size: 11, weight: .bold, design: .rounded))
+                .foregroundStyle(.white.opacity(0.96))
+                .frame(width: 12, height: 12)
+                .padding(4)
         }
+        .buttonStyle(.glassProminent)
+        .buttonBorderShape(.circle)
+        .tint(accent)
+        .controlSize(.small)
+        .keepsActiveControlAppearance()
     }
 }
 
