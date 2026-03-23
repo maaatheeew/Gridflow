@@ -1,10 +1,14 @@
-<img src="docs/assets/Gridflow-icon-hero.png" alt="Gridflow icon" width="112" align="left">
-
-# Gridflow
-
-Gridflow is a local-first macOS task planner built around the Eisenhower matrix. It helps you sort work into four priority quadrants, keep projects organized, and review completed work without shipping your data to a server.
-
-<br clear="left">
+<table>
+  <tr>
+    <td width="132" valign="middle">
+      <img src="docs/assets/Gridflow-icon-hero.png" alt="Gridflow icon" width="112">
+    </td>
+    <td valign="middle">
+      <h1>Gridflow</h1>
+      <p>Gridflow is a local-first macOS task planner built around the Eisenhower matrix. It helps you sort work into four priority quadrants, keep projects organized, and review completed work without shipping your data to a server.</p>
+    </td>
+  </tr>
+</table>
 
 ## Demo
 
