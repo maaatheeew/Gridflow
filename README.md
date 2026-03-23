@@ -82,6 +82,13 @@ This repository ignores local exports, recovered imports, build artifacts, DMGs,
 
 Bug reports, feature ideas, and pull requests are welcome. Please read `CONTRIBUTING.md` before opening a PR, especially the notes about demo data and release hygiene.
 
+## Contributors
+
+- Matthew Avgul — creator and maintainer of Gridflow
+- Codex — open source packaging, documentation, and release workflow support
+
+See `CONTRIBUTORS.md` for the current project credits.
+
 ## License
 
 Gridflow is available under the MIT License. See `LICENSE`.
