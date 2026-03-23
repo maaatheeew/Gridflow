@@ -42,7 +42,7 @@ jobs:
       - name: Upload workflow artifact
         uses: actions/upload-artifact@v4
         with:
-          name: gridflow-${{ steps.meta.outputs.version }}-macos
+          name: Gridflow-${{ steps.meta.outputs.version }}-macos
           if-no-files-found: error
           path: |
             Gridflow/dist/${{ steps.meta.outputs.dmg_name }}

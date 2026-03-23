@@ -303,7 +303,7 @@ private struct QuickAddButton: View {
                     .frame(width: 12, height: 12)
                     .padding(4)
             }
-            .buttonStyle(.glassProminent)
+            .buttonStyle(BorderedProminentButtonStyle())
             .buttonBorderShape(.circle)
             .tint(accent)
             .controlSize(.small)
