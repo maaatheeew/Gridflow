@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/assets/gridflow-icon-hero.png" alt="Gridflow icon" width="112">
+  <img src="docs/assets/Gridflow-icon-hero.png" alt="Gridflow icon" width="112">
 </p>
 
 # Gridflow
@@ -8,7 +8,7 @@ Gridflow is a local-first macOS task planner built around the Eisenhower matrix.
 
 ## Demo
 
-[![Watch the Gridflow demo](docs/demo/gridflow-demo-poster.png)](docs/demo/gridflow-demo.mp4)
+[![Watch the Gridflow demo](docs/demo/Gridflow-demo-poster.png)](docs/demo/Gridflow-demo.mp4)
 
 Click the preview to open the short product demo video.
 

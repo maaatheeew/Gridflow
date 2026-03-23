@@ -282,7 +282,7 @@ struct RootView: View {
     private func exportJSON() {
         let panel = NSSavePanel()
         panel.allowedContentTypes = [.json]
-        panel.nameFieldStringValue = "gridflow-export.json"
+        panel.nameFieldStringValue = "Gridflow-export.json"
 
         guard panel.runModal() == .OK, let url = panel.url else { return }
 

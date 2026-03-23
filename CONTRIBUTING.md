@@ -55,7 +55,7 @@ Before pushing, make sure your diff does not contain:
 
 - `~/Library/Application Support/Gridflow/storage.json`
 - Personal screenshots or exported task lists
-- Files such as `gridflow-export.json`, recovered imports, `.dmg`, `.app`, or `.zip`
+- Files such as `Gridflow-export.json`, recovered imports, `.dmg`, `.app`, or `.zip`
 - Build directories such as `.build/`, `dist/`, or derived data output
 
 ## Release Flow
