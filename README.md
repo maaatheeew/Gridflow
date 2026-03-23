@@ -14,8 +14,6 @@
 
 ![Animated Gridflow demo](docs/demo/Gridflow-demo.gif)
 
-Prefer the original recording? [Open the MP4 demo](docs/demo/Gridflow-demo.mp4).
-
 ## Highlights
 
 - Four-quadrant planning board for urgent vs. important work
