@@ -1,6 +1,16 @@
+<p align="center">
+  <img src="docs/assets/gridflow-icon-hero.png" alt="Gridflow icon" width="112">
+</p>
+
 # Gridflow
 
 Gridflow is a local-first macOS task planner built around the Eisenhower matrix. It helps you sort work into four priority quadrants, keep projects organized, and review completed work without shipping your data to a server.
+
+## Demo
+
+[![Watch the Gridflow demo](docs/demo/gridflow-demo-poster.png)](docs/demo/gridflow-demo.mp4)
+
+Click the preview to open the short product demo video.
 
 ## Highlights
 
@@ -30,7 +40,7 @@ Add product screenshots under `docs/screenshots/` and then replace or uncomment 
 ## Requirements
 
 - macOS 14 or newer
-- Xcode 16 or newer, or a recent Swift 6.2-compatible toolchain
+- Xcode 16 or newer, or a recent Swift 6.1-compatible toolchain
 
 ## Run Locally
 

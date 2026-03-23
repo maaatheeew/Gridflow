@@ -11,4 +11,5 @@
 *.jpeg binary
 *.icns binary
 *.mp3 binary
+*.mp4 binary
 *.dmg binary
