@@ -1,0 +1,66 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+jobs:
+  dmg:
+    runs-on: macos-14
+
+    defaults:
+      run:
+        shell: zsh
+        working-directory: Gridflow
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Derive release metadata
+        id: meta
+        run: |
+          version="${GITHUB_REF_NAME#v}"
+          echo "version=$version" >> "$GITHUB_OUTPUT"
+          echo "build_number=$GITHUB_RUN_NUMBER" >> "$GITHUB_OUTPUT"
+          echo "dmg_name=Gridflow-$version.dmg" >> "$GITHUB_OUTPUT"
+
+      - name: Build DMG
+        env:
+          APP_VERSION: ${{ steps.meta.outputs.version }}
+          APP_BUILD_NUMBER: ${{ steps.meta.outputs.build_number }}
+          DMG_NAME: ${{ steps.meta.outputs.dmg_name }}
+        run: ./scripts/build_dmg.sh
+
+      - name: Generate checksum
+        run: shasum -a 256 "dist/${{ steps.meta.outputs.dmg_name }}" > "dist/${{ steps.meta.outputs.dmg_name }}.sha256"
+
+      - name: Upload workflow artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: gridflow-${{ steps.meta.outputs.version }}-macos
+          if-no-files-found: error
+          path: |
+            Gridflow/dist/${{ steps.meta.outputs.dmg_name }}
+            Gridflow/dist/${{ steps.meta.outputs.dmg_name }}.sha256
+
+      - name: Publish GitHub release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if gh release view "$GITHUB_REF_NAME" >/dev/null 2>&1; then
+            gh release upload "$GITHUB_REF_NAME" \
+              "dist/${{ steps.meta.outputs.dmg_name }}" \
+              "dist/${{ steps.meta.outputs.dmg_name }}.sha256" \
+              --clobber
+          else
+            gh release create "$GITHUB_REF_NAME" \
+              "dist/${{ steps.meta.outputs.dmg_name }}" \
+              "dist/${{ steps.meta.outputs.dmg_name }}.sha256" \
+              --generate-notes \
+              --title "Gridflow ${{ steps.meta.outputs.version }}"
+          fi

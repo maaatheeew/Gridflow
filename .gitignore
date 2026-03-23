@@ -1,0 +1,30 @@
+.DS_Store
+
+# Swift Package Manager / Xcode
+Gridflow/.build/
+Gridflow/.swiftpm/
+Gridflow/dist/
+DerivedData/
+*.xcresult
+xcuserdata/
+*.xcworkspace/xcuserdata/
+
+# Local release bundles and archives
+*.app
+*.dmg
+*.zip
+
+# Local-only exports and recovered data
+storage.json
+eisen-plan-recovered-import.json
+gridflow-export.json
+*-export.json
+*-recovered-import.json
+
+# Scratch files and backups
+backups/
+
+# Legacy local prototypes that are not part of Gridflow OSS
+game.js
+index.html
+style.css

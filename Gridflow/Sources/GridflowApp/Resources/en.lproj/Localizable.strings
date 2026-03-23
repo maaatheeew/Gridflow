@@ -1,0 +1,123 @@
+"quadrant.important_urgent" = "Important and urgent";
+"quadrant.important" = "Important, but not urgent";
+"quadrant.urgent" = "Urgent, but not important";
+"quadrant.neither" = "Not urgent and not important";
+"quadrant.subtitle.important_urgent" = "Do now";
+"quadrant.subtitle.important" = "Schedule";
+"quadrant.subtitle.urgent" = "Delegate";
+"quadrant.subtitle.neither" = "Postpone";
+
+"priority.low" = "Low";
+"priority.medium" = "Medium";
+"priority.high" = "High";
+
+"smart.all" = "All Tasks";
+"smart.today" = "Today";
+"smart.planned" = "Planned";
+"smart.done" = "Completed";
+
+"sort.due_date" = "By Due Date";
+"sort.created_at" = "Newest First";
+"sort.priority" = "By Priority";
+
+"settings.title" = "Settings";
+"settings.theme" = "Theme";
+"settings.theme.system" = "System";
+"settings.theme.light" = "Light";
+"settings.theme.dark" = "Dark";
+"settings.language" = "Language";
+"settings.language.system" = "System";
+"settings.language.en" = "English";
+"settings.language.ru" = "Russian";
+
+"sidebar.smart_lists" = "Smart Lists";
+"sidebar.projects" = "Projects";
+"sidebar.log" = "Log";
+
+"task.new" = "New Task";
+"task.quick_add" = "Add to this quadrant";
+"task.editor.new" = "New Task";
+"task.editor.edit" = "Edit Task";
+"task.editor.save_error" = "Couldn’t save the task.";
+"task.edit" = "Edit";
+"task.title" = "Task name";
+"task.completed" = "Completed";
+"task.quadrant" = "Quadrant";
+"task.priority" = "Priority";
+"task.project" = "Project";
+"task.project.none" = "No project";
+"task.complete_hint" = "Click to complete";
+"task.complete_help" = "Click to complete the task. Right-click for more actions.";
+"task.has_due_date" = "Set due date";
+"task.due_date" = "Due date";
+"task.tags" = "Tags (comma-separated)";
+"task.notes" = "Notes";
+"task.subtasks" = "Subtasks";
+"task.subtask.title" = "Subtask";
+"task.subtask.new" = "Add subtask";
+"task.toggle_error" = "Couldn’t update task status.";
+"task.move_error" = "Couldn’t move task.";
+"task.delete" = "Delete Task";
+"task.delete_error" = "Couldn’t delete task.";
+
+"matrix.empty" = "No tasks yet. Tap + to add one.";
+
+"log.title" = "Completed Tasks";
+"log.subtitle" = "A day-by-day history of finished tasks.";
+"log.empty" = "No completed tasks yet.";
+"log.empty_hint" = "Completed tasks will appear here automatically";
+"log.restore" = "Return to Tasks";
+"log.delete" = "Delete Entry";
+"log.clear" = "Clear";
+"log.clear_confirm_title" = "Clear completed tasks?";
+"log.clear_confirm_message" = "Do you really want to delete all tasks from the log?";
+"log.clear_confirm_action" = "Delete All";
+"log.clear_error" = "Couldn’t clear completed tasks.";
+"log.project" = "Project";
+"log.quadrant" = "Quadrant";
+
+"project.new" = "New Project";
+"project.create_action" = "Create project";
+"project.name" = "Project name";
+"project.rename" = "Rename Project";
+"project.delete" = "Delete Project";
+"project.main" = "Tasks";
+"project.default_error" = "Couldn’t create the default project.";
+"project.rename_error" = "Couldn’t rename project.";
+"project.save_error" = "Couldn’t save project.";
+"project.delete_error" = "Couldn’t delete project.";
+
+"stats.today" = "Done Today";
+
+"search.placeholder" = "Search tasks";
+
+"filter.menu" = "Filters";
+"filter.priority" = "Priority";
+"filter.quadrants" = "Quadrants";
+"filter.overdue" = "Overdue only";
+"filter.include_completed" = "Show completed";
+"filter.overdue.short" = "Overdue";
+"filter.include_completed.short" = "Completed";
+
+"io.menu" = "Import/Export";
+"io.import_json" = "Import JSON";
+"io.export_json" = "Export JSON";
+"io.export_done" = "Export complete";
+"io.export_json_done" = "JSON exported successfully.";
+"io.export_error" = "Import/export failed.";
+"io.import_done" = "Import complete";
+"io.import_done_message" = "Projects merged: %d\nTasks merged: %d";
+"io.import_error" = "Couldn’t import JSON file.";
+
+"common.save" = "Save";
+"common.cancel" = "Cancel";
+"common.add" = "Add";
+"common.delete" = "Delete";
+"common.done" = "Done";
+"common.close" = "Close";
+"common.ok" = "OK";
+"common.error" = "Error";
+"undo.error" = "Couldn’t undo the last action.";
+
+"commands.navigate" = "Go To";
+"commands.undo" = "Undo";

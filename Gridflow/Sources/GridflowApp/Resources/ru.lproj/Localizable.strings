@@ -1,0 +1,123 @@
+"quadrant.important_urgent" = "Важно и срочно";
+"quadrant.important" = "Важно, но не срочно";
+"quadrant.urgent" = "Срочно, но не важно";
+"quadrant.neither" = "Не срочно и не важно";
+"quadrant.subtitle.important_urgent" = "Сделать сразу";
+"quadrant.subtitle.important" = "Запланировать";
+"quadrant.subtitle.urgent" = "Делегировать";
+"quadrant.subtitle.neither" = "Отложить";
+
+"priority.low" = "Низкий";
+"priority.medium" = "Средний";
+"priority.high" = "Высокий";
+
+"smart.all" = "Все задачи";
+"smart.today" = "Сегодня";
+"smart.planned" = "Запланировано";
+"smart.done" = "Выполнено";
+
+"sort.due_date" = "По дедлайну";
+"sort.created_at" = "Сначала новые";
+"sort.priority" = "По приоритету";
+
+"settings.title" = "Настройки";
+"settings.theme" = "Тема";
+"settings.theme.system" = "Как в системе";
+"settings.theme.light" = "Светлая";
+"settings.theme.dark" = "Тёмная";
+"settings.language" = "Язык";
+"settings.language.system" = "Системный";
+"settings.language.en" = "Английский";
+"settings.language.ru" = "Русский";
+
+"sidebar.smart_lists" = "Умные списки";
+"sidebar.projects" = "Проекты";
+"sidebar.log" = "Лог";
+
+"task.new" = "Новая задача";
+"task.quick_add" = "Добавить в этот квадрант";
+"task.editor.new" = "Новая задача";
+"task.editor.edit" = "Редактировать задачу";
+"task.editor.save_error" = "Не удалось сохранить задачу.";
+"task.edit" = "Редактировать";
+"task.title" = "Название задачи";
+"task.completed" = "Выполнено";
+"task.quadrant" = "Квадрант";
+"task.priority" = "Приоритет";
+"task.project" = "Проект";
+"task.project.none" = "Без проекта";
+"task.complete_hint" = "Кликните, чтобы завершить";
+"task.complete_help" = "Кликните, чтобы завершить задачу. Правый клик откроет действия.";
+"task.has_due_date" = "Установить дедлайн";
+"task.due_date" = "Дедлайн";
+"task.tags" = "Теги (через запятую)";
+"task.notes" = "Заметки";
+"task.subtasks" = "Подзадачи";
+"task.subtask.title" = "Подзадача";
+"task.subtask.new" = "Добавить подзадачу";
+"task.toggle_error" = "Не удалось обновить статус задачи.";
+"task.move_error" = "Не удалось переместить задачу.";
+"task.delete" = "Удалить задачу";
+"task.delete_error" = "Не удалось удалить задачу.";
+
+"matrix.empty" = "Пока пусто — нажми +, чтобы добавить задачу.";
+
+"log.title" = "Выполненные задачи";
+"log.subtitle" = "История завершённых задач, сгруппированная по дням.";
+"log.empty" = "Пока нет выполненных задач.";
+"log.empty_hint" = "Завершённые задачи появятся здесь автоматически";
+"log.restore" = "Вернуть в задачи";
+"log.delete" = "Удалить запись";
+"log.clear" = "Очистить";
+"log.clear_confirm_title" = "Очистить выполненные задачи?";
+"log.clear_confirm_message" = "Действительно хотите удалить все задачи из лога?";
+"log.clear_confirm_action" = "Удалить все";
+"log.clear_error" = "Не удалось очистить выполненные задачи.";
+"log.project" = "Проект";
+"log.quadrant" = "Квадрант";
+
+"project.new" = "Новый проект";
+"project.create_action" = "Создать проект";
+"project.name" = "Название проекта";
+"project.rename" = "Переименовать";
+"project.delete" = "Удалить проект";
+"project.main" = "Tasks";
+"project.default_error" = "Не удалось создать проект по умолчанию.";
+"project.rename_error" = "Не удалось переименовать проект.";
+"project.save_error" = "Не удалось сохранить проект.";
+"project.delete_error" = "Не удалось удалить проект.";
+
+"stats.today" = "Сделано сегодня";
+
+"search.placeholder" = "Поиск задач";
+
+"filter.menu" = "Фильтры";
+"filter.priority" = "Приоритет";
+"filter.quadrants" = "Квадранты";
+"filter.overdue" = "Только просроченные";
+"filter.include_completed" = "Показывать выполненные";
+"filter.overdue.short" = "Просроченные";
+"filter.include_completed.short" = "Выполненные";
+
+"io.menu" = "Импорт/экспорт";
+"io.import_json" = "Импорт JSON";
+"io.export_json" = "Экспорт JSON";
+"io.export_done" = "Экспорт завершён";
+"io.export_json_done" = "JSON успешно экспортирован.";
+"io.export_error" = "Ошибка импорта/экспорта.";
+"io.import_done" = "Импорт завершён";
+"io.import_done_message" = "Проектов объединено: %d\nЗадач объединено: %d";
+"io.import_error" = "Не удалось импортировать JSON-файл.";
+
+"common.save" = "Сохранить";
+"common.cancel" = "Отмена";
+"common.add" = "Добавить";
+"common.delete" = "Удалить";
+"common.done" = "Готово";
+"common.close" = "Закрыть";
+"common.ok" = "ОК";
+"common.error" = "Ошибка";
+"undo.error" = "Не удалось отменить последнее действие.";
+
+"commands.navigate" = "Переход";
+"commands.undo" = "Отменить";
