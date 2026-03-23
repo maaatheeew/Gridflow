@@ -5,7 +5,7 @@
     </td>
     <td valign="middle">
       <h1>Gridflow</h1>
-      <p>Gridflow is a local-first macOS task planner built around the Eisenhower matrix. It helps you sort work into four priority quadrants, keep projects organized, and review completed work without shipping your data to a server.</p>
+      <p>Gridflow is a simple, easy-to-use macOS task planner built around the Eisenhower matrix. It helps you sort work into four priority quadrants, keep projects organized, and stay focused with a clean workflow.</p>
     </td>
   </tr>
 </table>
