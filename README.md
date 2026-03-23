@@ -10,8 +10,6 @@
   </tr>
 </table>
 
-## Demo
-
 ![Animated Gridflow demo](docs/demo/Gridflow-demo.gif)
 
 ## Highlights
