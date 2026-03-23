@@ -87,3 +87,9 @@ See `CONTRIBUTORS.md` for contributor notes.
 ## License
 
 Gridflow is available under the MIT License. See `LICENSE`.
+
+## Stars
+
+![GitHub Repo stars](https://img.shields.io/github/stars/maaatheeew/Gridflow)
+
+[![Star History Chart](https://api.star-history.com/svg?repos=maaatheeew/Gridflow&type=Date)](https://star-history.com/#maaatheeew/Gridflow&Date)
